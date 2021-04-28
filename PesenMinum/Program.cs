@@ -50,7 +50,9 @@ namespace PesenMinum
                     Console.ReadKey();
                 }
             }
-            
+            MenuScreen menu = new MenuScreen();
+
+            menu.Excecute2(); 
 
         }
     }
